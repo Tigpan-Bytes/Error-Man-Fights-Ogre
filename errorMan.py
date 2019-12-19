@@ -96,9 +96,7 @@ while True:
             damage_dealt = 60 - ogre_health
             print("You took " + str(damage_taken) + " damage, but dealt " + str(damage_dealt) + " damage to the ogre.")
 
-            # I feel like this line may error, but I don't know why, something about a zero maybe?
             ratio = damage_dealt / damage_taken
-
             print("That means you dealt " + str(round(ratio * 100)) + "% of the damage you took!")
     except:
         # If you can cause the game to error, then you get the flag
