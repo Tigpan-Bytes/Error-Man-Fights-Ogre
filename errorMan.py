@@ -15,7 +15,7 @@ def ensure_acceptable_spell(spell, mana):
     return ensure_acceptable_spell(input("Invalid choice, please only (v)eil [10 mana], (f)lex [5 mana], (r)age [5 mana], or (c)ancel and attack.\n"), mana)
 
 
-print("\nThis is an in-progress open-source game, please contribute at GITHUB HERE, thanks for playing!\n")
+print("\nThis is an in-progress open-source game, please contribute at [https://github.com/Tigpan-Bytes/Error-Man-Fights-Ogre]!\n")
 print("This game is called 'ERROR MAN FIGHTS OGRE', you play as ErrorMan and you fight an Ogre.")
 print("Soon this will be sold on steam for $89.99 ($119.99 for the collectors edition). I just need to submit it.")
 sleep(3)
